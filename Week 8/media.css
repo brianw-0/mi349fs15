@@ -1,0 +1,31 @@
+body {
+	margin: 0px;
+}
+
+.column {
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Arial";
+	border-bottom: 1px solid black;
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+	.column {
+		width: 95%;
+		padding: 2%;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1199px){
+	.column {
+		width: 45%;
+		padding: 2%;
+	}
+}
+@media (min-width: 1200px) {
+	.column {
+		width: 31%;
+		padding: 1%;
+	}
+}
