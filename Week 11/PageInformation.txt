@@ -1,0 +1,3 @@
+The external page is linked to the homepage.
+
+The user clicks on a "feeling" in the homepage, and it takes them to an external page that looks like "External-Page-Example"
